@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+}
+
+
+section {
+    display: flex;  /* defaults to row layout */
+    justify-content: center;  /* centers items horizontally in row layout */
+    align-items: center;  /* centers vertically in row layout */
+    /* flex-direction: column; will set layout to column instead of row */
+    margin: auto;
+    padding: 100px;
+}
+
+input::-webkit-inner-spin-button {
+    display: none;
+    position: none;
+    cursor: none;
+    height: 0px;
+}
+
+input {
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 10px;
+    border: 5px solid rgb(190, 146, 24);
+    color: red;
+}
+
+button {
+   
+    height: 100px;
+    width: 50px;
+    padding: 0 50px 0 25px;
+    margin: 0 auto;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+div {
+    text-align: center;
+    padding: 100px 0 0 0;
+
+    
+}
